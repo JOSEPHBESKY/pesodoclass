@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color:yellow ;
+    transition: 1s;
+
+}
+.box:hover{
+    transform: translateX(-200px);
+    transition: 1s;
+}
+.box:hover{
+    transform: rotateZ(360deg);
+} 
+.box:hover{
+    transform: translateY(200px);
+    transition: 2s;
+}
+.box:hover{
+    transform: translateZ(200px);
+}
+.box:hover{
+transform: translate(300px,-300px);
+}
+
+.box:hover{
+    transform: scaleX(-3);
+}
+.box:hover{
+    transform: scaleY(-3);
+}
+.box:hover{
+    transform: scaleZ(-2);
+} 
+.box:hover{
+    transform: skewX(160deg);
+}
+.box:hover{
+    transform: skewY(240deg);
+}

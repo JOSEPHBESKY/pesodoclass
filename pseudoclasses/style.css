@@ -1,0 +1,50 @@
+/* a:link{
+    color: red;
+}
+a:visited{
+    color: yellow;
+}
+a:active{
+    color: yellow;
+}
+a:hover{
+    color: navy;
+}
+a:focus{
+    color: black;
+ } */
+
+
+p::first-letter{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    
+}
+p::first-line{
+    font-size: 20px;
+    color: chocolate;
+}
+.para::after{
+    content: 'Gnana Sekar';
+    color: chartreuse;
+    font-size: 20px;
+}
+.para::before{
+    content: 'Gnana Sekar';
+    color: chartreuse;
+    font-size: 20px;
+}
+::selection{
+    color: blueviolet;
+    background-color: aqua;
+}
+ol,ul{
+    list-style: none;
+}
+
+li::before{
+    content: '*';
+    font-size: 20px;
+    font-weight:600;
+}

@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: 250px;
+    display: flex;
+    background-color: cornflowerblue;
+    /* align-items: center; */
+    justify-content: center;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    transition: 3s;
+}
+.box1:hover{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    transition: 2s;
+    background-color: red;
+    transition-delay:inherit;
+    transition-duration: 3s;
+    transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
